@@ -58,7 +58,11 @@ def run_test(mode):
         pformat(client.__dict__))
 
     result = client.run()
-    return(result.received_Mbps, 1)
+
+    try:
+        return(result.received_Mbps, 1)
+    except AttributeError as e:
+        return(e, 0)
 
 
 @app.route("/run_test")
