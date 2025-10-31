@@ -2,4 +2,4 @@ Flask==2.2.2
 iperf3==0.1.11
 prometheus-client==0.16.0
 waitress==2.0.0
-Werkzeug==2.0.1
+Werkzeug==2.2.2
