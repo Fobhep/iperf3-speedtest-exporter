@@ -1,4 +1,4 @@
-Flask==2.2.2
+Flask==3.1.2
 iperf3==0.1.11
 prometheus-client==0.16.0
 waitress==3.0.2
